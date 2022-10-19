@@ -16,7 +16,7 @@ int main(void)
 	while
 		(y < 10)
 		{
-			putchar(y + '0')
+			putchar(y + '0');
 				y++;
 		}
 	while
