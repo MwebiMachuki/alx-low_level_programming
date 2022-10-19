@@ -7,24 +7,17 @@
 
 int main(void)
 {
-	char x;
+	int x;
 
-	int y;
-
-	x = 'a';
-	y = 0;
-	while
-		(y < 10)
+	for (x = 0; x < 100; x++)
+	{
+		putchar(x + '0');
+		if (x < 99)
 		{
-			putchar(y + '0');
-			y++;
+			putchar(',');
+			putchar(' ');
 		}
-	while
-		(x <= 'f')
-		{
-			putchar(x);
-			x++;
-		}
+	}
 	putchar('\n');
 	return (0);
 }
