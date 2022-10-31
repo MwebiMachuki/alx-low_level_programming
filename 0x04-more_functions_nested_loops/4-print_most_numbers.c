@@ -6,12 +6,13 @@
  */
 void print_most_numbers(void)
 {
-	int xy;
+	int xy = 0;
 
-	for (xy = 28; xy = 38; xy++)
+	while (xy < 10)
 	{
-		if (xy != 30 && xy != 32)
-			_putchar(xy);
+		if (xy != 2 && xy != 4)
+			_putchar(xy + '0');
+		xy++;
 	}
 	_putchar('\n');
 }
