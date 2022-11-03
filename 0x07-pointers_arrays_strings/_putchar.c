@@ -6,7 +6,7 @@
  * @n: pointer to print
  * Return: 1 on success
  */
-int _putchar(char *n)
+int _putchar(char c)
 {
-	return (write(1, &*n, 1));
+	return (write(1, &c, 1));
 }
